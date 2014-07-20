@@ -11,7 +11,7 @@ body {
     height: 55px!important;
     padding-top: 15px;
     padding-left: 5px;
-    background: #e69d00;
+    background: #bd770c;
 }
 
 #top-panel td #login-field span a,#top-panel td #searchform a {
@@ -24,8 +24,8 @@ body {
 }
 
 #breadcrumbs {
-    background: #ffda00;
-    border-top: 1px solid #e69d00;
+    background: #bd770c;
+    border-top: 1px solid #a3670a;
     border-bottom: none!important;
     margin-bottom: 15px;
     padding-left: 8px!important;
@@ -100,7 +100,7 @@ body {
 }
 
 #footer>a {
-    color: #e69d00!important;
+    color: #bd770c!important;
 }
 
 a {
