@@ -11,7 +11,7 @@ body {
     height: 55px!important;
     padding-top: 15px;
     padding-left: 5px;
-    background: #a31911;
+    background: #ef901f;
 }
 
 #top-panel td #login-field span a,#top-panel td #searchform a {
@@ -24,8 +24,8 @@ body {
 }
 
 #breadcrumbs {
-    background: #a31911;
-    border-top: 1px solid #90160f;
+    background: #ef901f;
+    border-top: 1px solid #ef901f;
     border-bottom: none!important;
     margin-bottom: 15px;
     padding-left: 8px!important;
@@ -100,11 +100,11 @@ body {
 }
 
 #footer>a {
-    color: #a31911!important;
+    color: #ef901f!important;
 }
 
 a {
-    color: #a31911 !important;
+    color: #ef901f !important;
     text-decoration: none!important;
 }
 
@@ -191,7 +191,7 @@ table.pane>tbody>tr>td:last-child {
 td.active {
     background: #fff!important;
     margin-top: -2px!important;
-    color: #a31911!important;
+    color: #ef901f!important;
 }
 
 td.inactive {
