@@ -19,7 +19,6 @@ body {
 }
 
 #top-panel td>a {
-    background: url("img/dsh.png") 0 0 no-repeat;
     display: block;
     width: 300px;
 }
@@ -318,6 +317,10 @@ td.pane:first-of-type,td.pane:last-of-type,th.pane:first-of-type,tr.build-row>td
 
 form {
     clear: both;
+}
+
+#header.logo {
+    background: url("img/dsh.png") 0 0 no-repeat;
 }
 
 .pane-header,.pane-header>a {
