@@ -19,6 +19,7 @@ body {
 }
 
 #top-panel td>a {
+    background: url("dsh.png") 0 0 no-repeat;
     display: block;
     width: 300px;
 }
