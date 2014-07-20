@@ -31,8 +31,14 @@ a:hover {
     color: #fff !important;
 }
 
+.login span {
+    font-size: 0px;
+}
+
 .login a {
-    padding-left: 15px;
+    font-size: 13px;
+    margin-top: 0px;
+    padding-left: 50px;
     color: #fff !important;
 }
 
