@@ -19,7 +19,7 @@ body {
 }
 
 #top-panel td>a {
-    background: url("dsh.png") 0 0 no-repeat;
+    background: url("img/dsh.png") 0 0 no-repeat;
     display: block;
     width: 300px;
 }
@@ -376,7 +376,7 @@ a[href*="/jobConfigHistory"].task-icon-link {
 }
 
 a[href*="/safeRestart"].task-icon-link {
-    background: url(img/restart.png) no-repeat!important;
+    background: url(img/refresh.png) no-repeat!important;
     background-size: contain!important;
 }
 
