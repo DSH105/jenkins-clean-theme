@@ -119,6 +119,7 @@ a {
 
 #login-field>span>a:hover {
     text-decoration: none!important;
+    text-decoration-color: #ff9e20 !important;
 }
 
 a:hover {
@@ -368,6 +369,16 @@ a.task-icon-link img {
     display: none!important;
 }
 
+a[href*="/jobConfigHistory/"].task-icon-link {
+    background: url(img/history.png) no-repeat!important;
+    background-size: contain!important;
+}
+
+a[href*="/safeRestart/"].task-icon-link {
+    background: url(img/restart.png) no-repeat!important;
+    background-size: contain!important;
+}
+
 a[href*="/job/"].task-icon-link {
     background: url(img/return.png) no-repeat!important;
     background-size: contain!important;
@@ -389,7 +400,7 @@ a[href*="/asynchPeople/"].task-icon-link {
 }
 
 a[href*="/builds"].task-icon-link {
-    background: url(img/history.png) no-repeat!important;
+    background: url(img/tasks.png) no-repeat!important;
     background-size: contain!important;
 }
 
@@ -414,7 +425,7 @@ a[href*="/credential-store"].task-icon-link {
 }
 
 a[href*=repository].task-icon-link {
-    background: url(img/maven.png) no-repeat!important;
+    background: url(img/share.png) no-repeat!important;
     background-size: contain!important;
 }
 
@@ -459,7 +470,7 @@ a[href*=javadoc].task-icon-link {
 }
 
 a[href*=console].task-icon-link {
-    background: url(img/console.png) no-repeat!important;
+    background: url(img/terminal.png) no-repeat!important;
     background-size: contain!important;
 }
 
@@ -555,7 +566,7 @@ td:first-child a[href=changes] {
 }
 
 #main-panel>table a[href="lastSuccessfulBuild/artifact/"] {
-    background: url(img/target.png) no-repeat!important;
+    background: url(img/artifacts.png) no-repeat!important;
     background-size: contain!important;
     padding: 24px!important;
     padding-left: 70px!important;
