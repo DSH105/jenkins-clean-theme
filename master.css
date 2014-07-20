@@ -369,12 +369,12 @@ a.task-icon-link img {
     display: none!important;
 }
 
-a[href*="/jobConfigHistory/"].task-icon-link {
+a[href*="/jobConfigHistory"].task-icon-link {
     background: url(img/history.png) no-repeat!important;
     background-size: contain!important;
 }
 
-a[href*="/safeRestart/"].task-icon-link {
+a[href*="/safeRestart"].task-icon-link {
     background: url(img/restart.png) no-repeat!important;
     background-size: contain!important;
 }
