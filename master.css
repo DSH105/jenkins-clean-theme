@@ -28,7 +28,7 @@ a:hover {
 }
 
 .model-link {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 .login span {
@@ -121,8 +121,8 @@ a:hover {
 }
 
 #top-panel td > a {
+    background: url('img/dsh.png') 0 0 no-repeat;
     display: block;
-    background: url("img/dsh.png") 0 0 no-repeat;
     width: 354px;
     height: 64px;
     margin: 0px 0 -5px 0px;
@@ -242,6 +242,10 @@ td.inactive {
     border: none!important;
 }
 
+td a:hover {
+    background-color: rgba(209, 209, 209, 0.18);
+}
+
 #viewList {
     margin-bottom: 15px!important;
     border: 1px solid rgba(0,0,0,.1)!important;
@@ -302,12 +306,12 @@ table {
     border: none!important;
 }
 
-#noJobDiv {
-    border: none!important;
-}
-
 .subtasks>a,.task>a {
     color: #505050!important;
+}
+
+#noJobDiv {
+    border: none!important;
 }
 
 #resizeContainer {
@@ -733,15 +737,15 @@ td.pane-header > div > a.collapse {
 }
 
 Keyframes inprogress {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.1;
-    }
-    100% {
-        opacity: 1;
-    }
+0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0.1;
+}
+100% {
+    opacity: 1;
+}
 }
 
 img[src$="blue.png"],     img[src$="blue.gif"],     img[src$="blue_anime.gif"],
@@ -834,7 +838,7 @@ img[src$="images/32x32/aborted.png"],  img[src$="images/32x32/aborted.gif"],  im
     width: 0;
     height: 24px;
     padding: 0 24px 0 0;
-	margin-left: 5px;
+    margin-left: 5px;
 }
 
 img[src$="images/48x48/blue.png"],     img[src$="images/48x48/blue.gif"],     img[src$="images/48x48/blue_anime.gif"],
