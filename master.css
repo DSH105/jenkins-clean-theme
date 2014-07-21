@@ -648,13 +648,13 @@ a[href="ws/"] img {
 }
 
 td:first-child a[href=changes] {
-    background: url(img/clipboard.png) no-repeat!important;
+    background: url(img/paper.png) no-repeat!important;
     background-size: contain!important;
     padding: 24px!important;
 }
 
 #main-panel>table a[href="lastSuccessfulBuild/artifact/"] {
-    background: url(img/package.png) no-repeat!important;
+    background: url(img/artifacts.png) no-repeat!important;
     background-size: contain!important;
     padding: 24px!important;
     padding-left: 70px!important;
