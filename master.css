@@ -432,16 +432,6 @@ a.task-icon-link img {
     display: none!important;
 }
 
-a[href*="/jobConfigHistory"].task-icon-link {
-    background: url(img/history.png) no-repeat!important;
-    background-size: contain!important;
-}
-
-a[href*="/safeRestart"].task-icon-link {
-    background: url(img/refresh.png) no-repeat!important;
-    background-size: contain!important;
-}
-
 a[href*="/job/"].task-icon-link {
     background: url(img/return.png) no-repeat!important;
     background-size: contain!important;
@@ -554,6 +544,41 @@ a[href*="/testReport"].task-icon-link {
 
 a[href*="/redeploy"].task-icon-link {
     background: url(img/redeploy.png) no-repeat!important;
+    background-size: contain!important;
+}
+
+a[href*="/jobConfigHistory"].task-icon-link {
+    background: url(img/history.png) no-repeat!important;
+    background-size: contain!important;
+}
+
+a[href*="/safeRestart"].task-icon-link {
+    background: url(img/refresh.png) no-repeat!important;
+    background-size: contain!important;
+}
+
+a[href*="/parambuild"].task-icon-link {
+    background: url(img/build.png) no-repeat!important;
+    background-size: contain!important;
+}
+
+a[href*="/schedule"].task-icon-link {
+    background: url(img/build.png) no-repeat!important;
+    background-size: contain!important;
+}
+
+a[href*="/plugin/favorite"].task-icon-link {
+    background: url(img/star.png) no-repeat!important;
+    background-size: contain!important;
+}
+
+a[href*="/GitHubPollLog"].task-icon-link {
+    background: url(img/git.png) no-repeat!important;
+    background-size: contain!important;
+}
+
+a[href*="/parambuild"].task-icon-link {
+    background: url(img/build.png) no-repeat!important;
     background-size: contain!important;
 }
 
