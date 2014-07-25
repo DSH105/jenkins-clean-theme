@@ -18,7 +18,7 @@ a:hover {
 }
 
 #side-panel-content .task {
-    font-size: 10px;
+    font-size: 92%;
 }
 
 #side-panel-content .task:hover {
@@ -50,7 +50,7 @@ a:hover {
 }
 
 .login a {
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 0px;
     padding-left: 50px;
     color: #fff !important;
@@ -194,7 +194,8 @@ a:hover {
 #projectstatus th>a,th,th>a {
     background: inherit!important;
     color: #000!important;
-    font-size: 13px;
+    /*font-size: 13px;*/
+    font-size: 98%;
     text-align: left;
 }
 
@@ -290,7 +291,7 @@ td {
     border: none!important;
     padding-right: 5px!important;
     height: 25px;
-    font-size: 13px!important;
+    /*font-size: 13px!important;*/
 }
 
 td.inactive:hover {
@@ -302,7 +303,7 @@ td.inactive:hover {
     padding-left: 0!important;
     padding-right: 0!important;
     height: 100%!important;
-    width: 260px;
+    width: 20%;
 }
 
 #main-panel {
@@ -311,6 +312,7 @@ td.inactive:hover {
     margin-left: 0px!important;
     margin-bottom: 10px!important;
     height: 100%!important;
+    width: 94%;
 }
 
 table {
@@ -893,6 +895,7 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
 }
 
 #main-panel>pre,body>pre {
+    /*font-size: 13px;*/
     font-size: 13px;
     background: #2b303b;
     color: #c0c5ce;
