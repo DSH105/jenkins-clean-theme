@@ -95,8 +95,7 @@ a:hover {
     padding: 3px!important;
     box-shadow: none!important;
     background-image: none!important;
-    border: 1px solid #DDD!important;
-    border-radius: 4px!important;
+    border: 0px!important;
     outline: 0!important;
 }
 
@@ -560,7 +559,7 @@ a[href*="/jobConfigHistory"].task-icon-link {
 }
 
 a[href*="/safeRestart"].task-icon-link {
-    background: url(img/refresh.png) no-repeat!important;
+    background: url(img/power.png) no-repeat!important;
     background-size: contain!important;
 }
 
@@ -586,6 +585,11 @@ a[href*="/GitHubPollLog"].task-icon-link {
 
 a[href*="/parambuild"].task-icon-link {
     background: url(img/build.png) no-repeat!important;
+    background-size: contain!important;
+}
+
+img[href*="help.png"].task-icon-link {
+    background: url(img/help.png) no-repeat!important;
     background-size: contain!important;
 }
 
