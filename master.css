@@ -12,7 +12,7 @@ a:hover {
 }
 
 #side-panel-content .task {
-    margin-bottom: -13px;
+    margin-bottom: -10px;
     margin-right: -15px;
     margin-left: -5px;
 }
@@ -29,12 +29,19 @@ a:hover {
     height: 0;
 }
 
-#jenkins-head-icon {
+#jenkins-name-icon {
     display: none;
 }
 
-#jenkins-name-icon {
-    display: none;
+#jenkins-head-icon {
+    opacity: 0;
+}
+
+#jenkins-home-link {
+    display: block;
+    background: url("dsh.png") 0 0 no-repeat;
+    height: 64px;
+    width: 354px;
 }
 
 .model-link.inside {
@@ -131,14 +138,6 @@ a:hover {
 
 #top-panel td #searchform a img {
     display: none;
-}
-
-#top-panel td > a {
-    background: url('img/dsh.png') 0 0 no-repeat;
-    display: block;
-    width: 354px;
-    height: 64px;
-    margin: 0px 0 -5px 0px;
 }
 
 #top-panel td > a img {
@@ -483,7 +482,7 @@ a[href*="/credential-store"].task-icon-link {
     background-size: contain!important;
 }
 
-a[href*=repository].task-icon-link {
+a[href*="http://repo.dsh105.com/"].task-icon-link {
     background: url(img/share.png) no-repeat!important;
     background-size: contain!important;
 }
