@@ -750,6 +750,17 @@ img[src$="clipboard.png"] {
     background-size: contain !important;
 }
 
+img[src$="16x16/notepad.png"] {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 16px;
+    width: 16px;
+    padding-left: 16px;
+    padding-right: 5px;
+    background: url(img/edit.png) no-repeat !important;
+    background-size: contain !important;
+}
+
 div.task a[href="#"]:first-child {
     background: url(img/x.png) no-repeat!important;
     background-size: contain!important;
