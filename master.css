@@ -29,6 +29,50 @@ a:hover {
     height: 0;
 }
 
+
+
+.warning {
+    padding: 8px 35px 8px 30px;
+    margin-bottom: 18px;
+    color: #c09853;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border: 1px solid #eed3d7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #fcf8e3 none;
+    line-height: 40px;
+}
+
+.warning .yui-button {
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    bottom: -10px;
+    line-height: 0px;
+}
+
+.error {
+    padding: 8px 35px 8px 30px;
+    margin-bottom: 18px;
+    color: #b94a48;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border: 1px solid #eed3d7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #f2dede none;
+    line-height: 40px;
+}
+
+.error .yui-button {
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    bottom: -10px;
+    line-height: 0px;
+}
+
 #jenkins-name-icon {
     display: none;
 }
