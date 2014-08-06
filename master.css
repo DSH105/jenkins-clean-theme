@@ -632,11 +632,6 @@ a[href*="/parambuild"].task-icon-link {
     background-size: contain!important;
 }
 
-img[href*="help.png"].task-icon-link {
-    background: url(img/help.png) no-repeat!important;
-    background-size: contain!important;
-}
-
 img[src$="package.png"] {
     display: block;
     -moz-box-sizing: border-box;
@@ -726,7 +721,7 @@ img[src$="clipboard.png"] {
 }
 
 #management-links img[src$="help.png"] {
-    background: url(img/help.png) no-repeat !important;
+    background: url(img/info.png) no-repeat !important;
     background-size: contain !important;
 }
 
@@ -758,6 +753,21 @@ img[src$="16x16/notepad.png"] {
     padding-left: 16px;
     padding-right: 5px;
     background: url(img/edit.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+img[src$="16x16/help.png"] {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 16px;
+    width: 16px;
+    padding-left: 16px;
+    background: url(img/help-white.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#searchform img[src$="16x16/help.png"] {
+    background: url(img/help.png) no-repeat !important;
     background-size: contain !important;
 }
 
@@ -874,10 +884,6 @@ a[href="ws/"] tr {
 
 td[style="vertical-align:middle"] a[href="ws/"] {
     background: transparent!important;
-}
-
-#main-panel h1 img,a[href="#"] img {
-    display: none!important;
 }
 
 textarea {
