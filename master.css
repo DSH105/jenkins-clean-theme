@@ -614,6 +614,97 @@ img[src$="clipboard.png"] {
     padding-left: 48px;
 }
 
+.bigtable img[src$="terminal.png"] {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(img/terminal.png) no-repeat !important;
+    background-size: contain !important;
+    height: 24px;
+    width: 24px;
+    padding-left: 24px;
+}
+
+#management-links img {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 36px;
+    width: 36px;
+    padding-left: 36px;
+    margin-bottom: 10px;
+}
+
+#management-links img[src$="setting.png"] {
+    background: url(img/manage.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#management-links img[src$="secure.png"] {
+    background: url(img/lock.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#management-links img[src$="refresh.png"] {
+    background: url(img/refresh.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#management-links img[src$="plugin.png"] {
+    background: url(img/box.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#management-links img[src$="computer.png"] {
+    background: url(img/console.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#management-links img[src$="monitor.png"] {
+    background: url(img/tasks.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#management-links img[src$="notepad.png"],img[src$="document.png"] {
+    background: url(img/paper.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#management-links img[src$="network.png"] {
+    background: url(img/artifacts.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#management-links img[src$="credentials.png"] {
+    background: url(img/key.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#management-links img[src$="help.png"] {
+    background: url(img/help.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#management-links img[src$="terminal.png"] {
+    background: url(img/terminal.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#management-links img[src$="user.png"] {
+    background: url(img/people.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#management-links img[src$="quick_restart.png"],img[src$="system-log-out.png"] {
+    background: url(img/power.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+#management-links img[src$="cfg_logo.png"] {
+    background: url(img/paper.png) no-repeat !important;
+    background-size: contain !important;
+}
+
 div.task a[href="#"]:first-child {
     background: url(img/x.png) no-repeat!important;
     background-size: contain!important;
