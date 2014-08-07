@@ -671,9 +671,9 @@ img[src$="32x32/switch-on.png"] {
     box-sizing: border-box;
     background: url(img/power-green.png) no-repeat !important;
     background-size: contain !important;
-    height: 32px;
-    width: 32px;
-    padding-left: 32px;
+    height: 24px;
+    width: 24px;
+    padding-left: 24px;
 }
 
 img[src$="32x32/switch-off.png"] {
@@ -682,9 +682,9 @@ img[src$="32x32/switch-off.png"] {
     box-sizing: border-box;
     background: url(img/power-red.png) no-repeat !important;
     background-size: contain !important;
-    height: 32px;
-    width: 32px;
-    padding-left: 32px;
+    height: 24px;
+    width: 24px;
+    padding-left: 24px;
 }
 
 .bigtable img[src$="terminal.png"] {
