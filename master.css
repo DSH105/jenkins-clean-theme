@@ -654,6 +654,28 @@ img[src$="clipboard.png"] {
     padding-left: 48px;
 }
 
+img[src$="32x32/switch-on.png"] {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(img/power-green.png) no-repeat !important;
+    background-size: contain !important;
+    height: 32px;
+    width: 32px;
+    padding-left: 32px;
+}
+
+img[src$="32x32/switch-off.png"] {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(img/power-red.png) no-repeat !important;
+    background-size: contain !important;
+    height: 32px;
+    width: 32px;
+    padding-left: 32px;
+}
+
 .bigtable img[src$="terminal.png"] {
     display: block;
     -moz-box-sizing: border-box;
