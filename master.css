@@ -1134,11 +1134,11 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
     text-decoration: underline;
 }
 
-.console-output {
+/*.console-output {
     text-shadow: 8px;
     font-size: 12px;
     padding: 10px;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     border: 1px solid transparent;
     border-radius: 4px;
-}
+}*/
