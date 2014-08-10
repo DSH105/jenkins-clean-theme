@@ -84,7 +84,8 @@ a:hover {
 
 #jenkins-home-link {
     display: block;
-    background: url("dsh.png") 0 0 no-repeat;
+    /*background: url("img/dsh.png") 0 0 no-repeat;*/
+    margin-top: -16px;
     height: 64px;
     width: 354px;
 }
