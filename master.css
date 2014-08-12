@@ -85,9 +85,10 @@ a:hover {
 #jenkins-home-link {
     display: block;
     background: url("img/header.png") 0 0 no-repeat;
-    margin-top: -16px;
-    height: 64px;
-    width: 354px;
+    background-size: 100%;
+    margin-top: -10px;
+    height: 58px;
+    width: 516px;
 }
 
 .model-link.inside {
