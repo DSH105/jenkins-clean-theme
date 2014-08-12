@@ -84,7 +84,7 @@ a:hover {
     display: block;
     background: url("img/header.png") 0 0 no-repeat;
     background-size: 75%;
-    position: fixed;
+    float: right;
     top: 10px;
     height: 58px;
     width: 516px;
