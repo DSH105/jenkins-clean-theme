@@ -633,7 +633,7 @@ a[href*="/parambuild"].task-icon-link {
     background-size: contain!important;
 }
 
-img[src$="package.png"] {
+img[src$="48x48/package.png"] {
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -644,7 +644,7 @@ img[src$="package.png"] {
     padding-left: 48px;
 }
 
-img[src$="clipboard.png"] {
+img[src$="48x48/clipboard.png"] {
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
