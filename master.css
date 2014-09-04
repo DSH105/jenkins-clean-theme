@@ -82,7 +82,7 @@ a:hover {
 
 #jenkins-home-link {
     display: block;
-    background: url("img/header.png") 0 0 no-repeat;
+    background: url("http://assets.dsh105.com/ci-header.png") 0 0 no-repeat;
     background-size: 75%;
     float: right;
     top: 10px;
