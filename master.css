@@ -30,6 +30,14 @@ a:hover {
     height: 0;
 }
 
+#header .login {
+    padding-top: 14px;
+}
+
+#header .searchbox {
+    padding-top: 14px;
+}
+
 .warning {
     padding: 8px 35px 8px 30px;
     margin-bottom: 18px;
