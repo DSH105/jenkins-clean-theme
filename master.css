@@ -10,6 +10,23 @@ a {
 
 a:hover {
     text-decoration: none!important;
+    color: #ab7502 !important;
+}
+
+.tabBarFrame {
+    height: 35px;
+    border-bottom: 1px solid rgba(0,0,0,.1)!important;
+    border-left: none!important;
+    border-right: none!important;
+    border-top: 1px solid rgba(0,0,0,.1)!important;
+}
+
+.tabBar {
+    padding-top: 8px;
+}
+
+.tabBar a {
+    padding: 10px;
 }
 
 #side-panel-content .task {
