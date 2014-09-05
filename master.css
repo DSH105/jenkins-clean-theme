@@ -4,7 +4,7 @@ body {
 }
 
 body, table, form, input, td, th, p, textarea, select {
-    font-size: 12px;
+    font-size: 12.5px;
 }
 
 a {
@@ -38,8 +38,16 @@ a:hover {
     margin-left: -5px;
 }
 
+#side-panel-content {
+    padding-left: 5px;
+}
+
 #side-panel-content .task:hover {
     background-color: rgba(209, 209, 209, 0.18);
+}
+
+#side-panel-content .task {
+    font-size: 92%;
 }
 
 #header {
