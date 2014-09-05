@@ -684,6 +684,17 @@ img[src$="48x48/clipboard.png"] {
     padding-left: 48px;
 }
 
+img[src$="24x24/edit-delete.png"] {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(img/x.png) no-repeat !important;
+    background-size: contain !important;
+    height: 24px;
+    width: 24px;
+    padding-left: 24px;
+}
+
 img[src$="24x24/setting.png"] {
     display: block;
     -moz-box-sizing: border-box;
