@@ -3,7 +3,7 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-body, table, form, input, td, th, p, textarea, select
+body, table, form, input, td, th, p, textarea, select {
     font-size: 12px;
 }
 
