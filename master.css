@@ -1,6 +1,6 @@
 body {
     background: #fff!important;
-    font-family: Verdana, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 a {
@@ -36,7 +36,7 @@ a:hover {
 }
 
 #side-panel-content .task {
-    font-size: 85%;
+    font-size: 88%;
 }
 
 #side-panel-content .task:hover {
@@ -264,7 +264,7 @@ a:hover {
     background: inherit!important;
     color: #000!important;
     /*font-size: 13px;*/
-    font-size: 92%;
+    font-size: 96%;
     text-align: left;
 }
 
@@ -361,11 +361,15 @@ td {
     padding-right: 5px!important;
     height: 25px;
     /*font-size: 13px!important;*/
-    font-size: 92%;
+    font-size: 96%;
+}
+
+#buildQueue td, #buildHistory td, #executors td, #next-exec td {
+	font-size: 88%;
 }
 
 #buildQueue, #buildHistory, #executors, #next-exec {
-    font-size: 80%;
+    font-size: 84%;
 }
 
 td.inactive:hover {
