@@ -14,7 +14,6 @@ a {
 
 a:hover {
     text-decoration: none!important;
-    color: #ab7502 !important;
 }
 
 .tabBarFrame {
@@ -120,6 +119,7 @@ a:hover {
 }
 
 .model-link {
+    text-decoration: none!important;
     color: #000 !important;
 }
 
@@ -264,7 +264,7 @@ a:hover {
     background: inherit!important;
     color: #000!important;
     /*font-size: 13px;*/
-    font-size: 92%;
+    font-size: 95%;
     text-align: left;
 }
 
@@ -361,11 +361,11 @@ td {
     padding-right: 5px!important;
     height: 25px;
     /*font-size: 13px!important;*/
-    font-size: 92%;
+    font-size: 95%;
 }
 
 #buildQueue, #buildHistory, #executors, #next-exec {
-    font-size: 80%;
+    font-size: 90%;
 }
 
 td.inactive:hover {
