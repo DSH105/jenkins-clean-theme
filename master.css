@@ -96,6 +96,20 @@ a:hover {
     line-height: 40px;
 }
 
+#description {
+	padding: 8px 35px 8px 30px;
+    margin-bottom: 18px;
+    color: #b94a48;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border: 1px solid #eed3d7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #f2dede none;
+    line-height: 20px;
+	padding-bottom: 10px;
+}
+
 .error .yui-button {
     padding-right: 15px;
     padding-left: 15px;
