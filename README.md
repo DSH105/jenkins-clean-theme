@@ -3,7 +3,7 @@ jenkins-clean-theme
 
 This is a simple theme for jenkins using the "simple-theme-plugin"
 
-A demo can be seen here: http://jqa.me:8080/
+This theme is currently used on https://ci.dsh105.com/
 
 Dependencies
 =================
